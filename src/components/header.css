@@ -1,0 +1,50 @@
+
+header {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: orange;
+    align-items: center;
+}
+
+.logo-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 80%;
+}
+
+.navigation {
+    width: 300px;
+}
+
+.navigation > ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation > ul li {
+    list-style-type: none;
+    font-size: 24px;
+}
+
+.navigation > ul li > a {
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-size: 64px;
+}
+
+.login-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
